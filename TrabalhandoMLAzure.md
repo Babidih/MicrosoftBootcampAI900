@@ -15,7 +15,7 @@ Vamos então ao passo a passo em si e suas respectivas explicações.
 ### Passo 1 - Selecionando a Ferramenta
 Primeiro, devemos selecionar a ferramenta que queremos utilizar dentro do ambientge Azure para darmos início ao projeto. Então, você vai olhar para o menu 
 que está localizado no canto esquerdo da página Azure, procurar a parte de **Criação** e selecionar a opção **ML automatizado**.
-
+![Print0](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20205416.png)
 ### Passo 2 - Dando Nome a IA
 Tendo selecionado essa opção, devemos então inserir o nome do nosso BD, criar uma descrição para ele (não é necessário, porém ajuda a entender os dados em uma futura consulta
 ou caso se tenha vários BDs) e selecionar a opção Tabular (caso já não esteja selecionado).

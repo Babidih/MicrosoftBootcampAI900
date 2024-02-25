@@ -1,4 +1,9 @@
-# Trablhando Machine Learning na Prática no Azure ML
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="75px" src="https://hermes.dio.me/lab_projects/badges/87d332d0-5198-4a2f-b159-38c8c2976954.png">
+    Trablhando Machine Learning na Prática no Azure ML
+</h1>
+
 Aqui está o meu repertório GitHub para a entrega e futura avaliação de potenciais avaliadores do trabalho que realizei para a aprovação da 
 atividade do bootcamp DIO da Microsoft: **_Microsoft Azure AI Fundamentals_**. Aqui tenho prints e explicações destes prints do passo a passo
 realizado das ações realizadas para cumprir o desafio.
@@ -17,12 +22,11 @@ Primeiro, devemos selecionar a ferramenta que queremos utilizar dentro do ambien
 que está localizado no canto esquerdo da página Azure, procurar a parte de **Criação** e selecionar a opção **ML automatizado**.
 ![Print0](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20205416.png)
 ### Passo 2 - Dando Nome a IA
-Tendo selecionado essa opção, devemos então inserir o nome do nosso BD, criar uma descrição para ele (não é necessário, porém ajuda a entender os dados em uma futura consulta
-ou caso se tenha vários BDs) e selecionar a opção Tabular (caso já não esteja selecionado).
+Tendo selecionado essa opção, devemos então inserir o nome do nosso BD, criar uma descrição para ele (não é necessário, porém ajuda a entender os dados em uma futura consulta ou caso se tenha vários BDs) e selecionar a opção **Tabular** (caso já não esteja selecionado).
 ![Print1](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20121301.png)
 
 ### Passo 3 - Selecionando Origem dos Dados
-Feito isso, devemos selecionar a fonte de nossos dados. Selecione a opção "De Arquivos da Web", pois vamos inserir uma URL do BD.
+Feito isso, devemos selecionar a fonte de nossos dados. Selecione a opção **De Arquivos da Web**, pois vamos inserir uma **URL** do BD.
 ![Print2](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20121313.png)
 
 ### Passo 4 - Inserindo a URL
@@ -34,11 +38,11 @@ Feito essa validação, deveremos selecionar "Cabeçalhos de Coluna" e escolher 
 ![Print4](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20121727.png)
 
 ### Passo 6 - Verificando o Esquema
-Agora, estamos diante do Esquema. Confira se todas as opções estão marcadas, excluindo o "Path", e avançe. 
+Agora, estamos diante do **Esquema**. Confira se todas as opções estão marcadas, excluindo o **Path**, e avance. 
 ![Print5](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20121800.png)
 
 ### Passo 7 - Exame 1
-Feito isso, eramos para a parte de Exame. Essa parte é dedicada para conferirmos as nossas configurações e as opções que inserimos. Feito essa verificação superficial, avance para a próxima etapa. 
+Feito isso, eramos para a parte de **Exame**. Essa parte é dedicada para conferirmos as nossas configurações e as opções que inserimos. Feito essa verificação superficial, avance para a próxima etapa. 
 ![Print6](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20121832.png)
 
 ### Passo 8 - Tipo de Tarefa e Dados
@@ -46,7 +50,7 @@ Feito tudo isso, devemos então selecionar a opção Regressão e selecionar o B
 ![Print7](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20121933.png)
 
 ### Passo 9 - Configuração Adicional
-Devemos selecionar que nossa coluna de destino será o "rentals (integer)". Feito isso, devemos selecionar a engrenagem abaixo da opção que selecionamos "Exibir definição de configurações adicionais". Com isso, um menu lateral se abrirá. Devemos desmarcar todas as caixas que estejam marcadas. Para a opção **Metrica Primária** selecionamos a opção **Normalized root mean squared error**. Por fim, na opção **Modelos Permitidos** vamos selecionar duas opções: **RandomForest e LightGBM**. Até podemos selecionar mais, porém isso iria requerer mais tempo de compilação, então deixemos apenas estes dois mesmo.
+Devemos selecionar que nossa coluna de destino será o **rentals (integer)**. Feito isso, devemos selecionar a engrenagem abaixo da opção que selecionamos **Exibir definição de configurações adicionais**. Com isso, um menu lateral se abrirá. Devemos desmarcar todas as caixas que estejam marcadas. Para a opção **Metrica Primária** selecionamos a opção **Normalized root mean squared error**. Por fim, na opção **Modelos Permitidos** vamos selecionar duas opções: **RandomForest e LightGBM**. Até podemos selecionar mais, porém isso iria requerer mais tempo de compilação, então deixemos apenas estes dois mesmo.
 ![Print8](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20122120.png)
 
 ### Passo 10 - Limites
@@ -73,6 +77,37 @@ O Azure vai dar início a criação da sua ferramenta de IA. Aguarde cerca de 8 
 ### Passo 15
 Se tudo ocorreu bem, seu processo deverá estar concluido. Uma notificação aparecerá na sua caixa de notificações, avisando a conclusão da compilação, e o **Status** mudará para **Concluído** e ficará verde. Verifique a integridade de seus dados e se eles estão todos operando normalmente. Caso esteja tudo verificado e não houver nenhum problema, parabéns, sua ferramenta está criada.
 ![Print16](https://github.com/Babidih/MicrosoftBootcampAI900/blob/Imagens/Captura%20de%20tela%202024-02-24%20123759.png)
+
+### Testando Nosso Modelo
+Na página do modelo, selecione a opção **Pontos de extremidade**. Também é possível acessar pelo menu lateral em **Pontos de extremidade**. Selecionei o ponto correspondente ao modelo gerado. Em seguida, acesse a aba **Testar**.
+
+Para o teste, utilizei o seguine json:
+``` 
+{
+  "input_data": {
+    "data": [
+       {
+         "day": 1,
+         "mnth": 1,   
+         "year": 2022,
+         "season": 2,
+         "holiday": 0,
+         "weekday": 1,
+         "workingday": 1,
+         "weathersit": 2, 
+         "temp": 0.3, 
+         "atemp": 0.3,
+         "hum": 0.3,
+         "windspeed": 0.3 
+       }
+     ]
+  }
+}
+```
+O resultado obtido foi: 
+[1 item
+0:float359.7832003385779
+]
 
 
 

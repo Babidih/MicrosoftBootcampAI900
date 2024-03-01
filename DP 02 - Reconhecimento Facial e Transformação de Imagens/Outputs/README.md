@@ -1,4 +1,5 @@
 ## Rodri_Garro
+![PrintGarro](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2002%20-%20Reconhecimento%20Facial%20e%20Transforma%C3%A7%C3%A3o%20de%20Imagens/Prints/Captura%20de%20tela%202024-02-29%20231432.png) <br>
 [
   {
     "recognitionModel": "recognition_01",
@@ -128,6 +129,7 @@
 ]
 
 ## Romero_AI
+![Romero_AI](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2002%20-%20Reconhecimento%20Facial%20e%20Transforma%C3%A7%C3%A3o%20de%20Imagens/Prints/Captura%20de%20tela%202024-02-29%20231224.png) <br>
 [
   {
     "recognitionModel": "recognition_01",
@@ -257,6 +259,7 @@
 ]
 
 ## Yuri_3
+![Yuri_3](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2002%20-%20Reconhecimento%20Facial%20e%20Transforma%C3%A7%C3%A3o%20de%20Imagens/Prints/Captura%20de%20tela%202024-02-29%20231159.png) <br>
 [
   {
     "recognitionModel": "recognition_01",

@@ -1,1 +1,20 @@
-
+## O que estamos fazendo?
+Aqui, estamos pegando diferentes faixas de áudio e inserindo na ferramenta de IA responsável por ouvir estes áudios e transcrever eles para os respectivos textos na linguagem na qual foram gravadas.
+## Teste 1 - Áudio de Demonstração Padrão
+Este é um áudio fornecido pela própria documentação da Azure como forma de testar a ferramenta. Conforme esperado, a ferramenta funcionou perfeitamente, conseguindo formular um texto que estava 100% fiel ao que foi dito no áudio. 
+<br>
+Outro ponto que vale notar é o arquivo JSON, que continha os tempos, duração, e outras informações bastante interessantes sobre cada palavra e trecho da frase. Então, a ferramenta consegue mostrar qual parte do texto está sendo dito em determinado momento, de acordo com seu tempo de início, duração e finalização.
+![print](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2003%20-%20An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI%20/Intups%20e%20Outputs/Captura%20de%20tela%202024-03-01%20142222.png)
+## Teste 2 - Trecho de Música Brasileira
+Agora, queria logo de cara expor a ferramenta a algo bem mais complexo: um trecho de música e ainda em Português. Logo de cara já comecei errado pois esqueci de trocar a linguagem que a ferramenta deveria estar, então ele deu erro. Então, corrigi isto e tentei novamente. O resultado foi um tanto quanto decepcionante. A ferramenta não conseguiu identificar alguns trechos da música e não consegue identificar palavras que estejam sendo ditas de forma prolongada (Exemplo: Olaaaaaaa!), então ele tenta preencher com alguma outra palavra que ele ache que seja a adaquada.
+![print](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2003%20-%20An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI%20/Intups%20e%20Outputs/Captura%20de%20tela%202024-03-01%20135405.png)
+## Teste 3 - Trecho de Múisca em Inglês
+Ainda botando fé de que a ferramenta conseguiria identificar a voz em meio a outros sons, testei um trecho de música em inglês (já que geralmente o inglês é a úncia lingua que essas ferramentas funcionam com uma precisão, no mínimo, aceitável). Foi ainda pior. A IA sequer identificou algo e seu arqúivo JSON ficou vazio. Tentei rodar mais um teste, mas nada. A IA foi incapaz de identificar e transcrever sequer uma palavra da música.
+![print](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2003%20-%20An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI%20/Intups%20e%20Outputs/Captura%20de%20tela%202024-03-01%20135718.png)
+## Teste 4 - Gravação de Voz em Inglês
+Desisti de testar trechos de música e resolvi então gravar um áudio prórpio onde eu diria uma frase em inglês. E a ferramenta fez um excelente trabalho, identificou exatamente o que eu disse no áudio. Então, de fato, essa ferramenta não foi feita para extrair letras de músicas ou de gravações onde hajam muitas distorções sonoras.
+![print](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2003%20-%20An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI%20/Intups%20e%20Outputs/Captura%20de%20tela%202024-03-01%20135901.png)
+## Teste 5 - Gravação de Voz em Português
+Agora, partindo do mesmo principio do teste anterior, repeti a mesma frase que eu havia dito em inglês, porém dessa vez em português. E ele teve um acerto bom, porém ele errou no meio da frase ao trocar "a inteligência artificial" por "o interesse artificial". 
+![print](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2003%20-%20An%C3%A1lise%20de%20Sentimentos%20com%20Language%20Studio%20no%20Azure%20AI%20/Intups%20e%20Outputs/Captura%20de%20tela%202024-03-01%20135932.png)
+E isso é algo interessante pois nesse momento do áudio eu acelero a velocidade da minha voz de forma involuntária, saindo de uma foz monotona, lenta e pausada, para uma voz um pouco mais rápida e menos pausada. E isso, para uma pessoa, seria imperseptível. Nosso cérebro tem a mania de preencher lacunas deixas pelos nossos sentidos, então o cérebro da pessoa iria, caso ela não entendesse claramente o que eu disse, preencher com inteligencia artifical. Porém, a máquina não conseguiria fazer esse preenchimento, pois não forneci contexto o suficiente para ela. Então foi um équivoco compreensível. 

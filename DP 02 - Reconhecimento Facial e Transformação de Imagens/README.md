@@ -9,7 +9,7 @@ Selecione a opção _**Ia + Machine Learning**_ (Seta Azul) e depois selecione a
 
 ### Passo 2
 Vamos agora configurar nosso pacote de serviço. Nossa _**Assinatura**_ (Seta Azul) não vamos mudar, deixaremos a padrão mesmo. Nosso _**Grupo de recursos**_ (Seta Verde), selecione algum que você já tenha criado (caso não tenha criado, crie um), a _**Região**_ é preferivel deixar no servidor **US** mesmo, quanto ao _**Nome**_ do nosso pacote de recursos você pode dar o nome que quiser. Por fim, nosso _**Tipo de Preço**_ a gente vai selecionar a opção **Standerd S0** (Seta Branca) e devemos marcar _**Caixa de Seleção**_ (Seta Amarela) e por fim clicar no botão _**Examinar + Criar**_ (Seta Laranja).
-![Print01](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2002%20-%20Reconhecimento%20Facial%20e%20Transforma%C3%A7%C3%A3o%20de%20Imagens/Prints/Captura%20de%20tela%202024-02-28%20202839.png)
+![Print01](https://github.com/Babidih/MicrosoftBootcampAI900/blob/main/DP%2002%20-%20Reconhecimento%20Facial%20e%20Transforma%C3%A7%C3%A3o%20de%20Imagens/Prints/Captura%20de%20tela%202024-02-28%20202952.png)
 
 ### Passo 3
 Agora, vamos conferir todas as informações. Caso esteja tudo conforme a imágem abaixo, selecione o botão _**Criar**_ (Seta Azul).
